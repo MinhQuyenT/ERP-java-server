@@ -1,0 +1,14 @@
+package com.minhphuc.hprserverjava.mapper.hr;
+
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.minhphuc.hprserverjava.domain.hr.HrMoveDepartment;
+import org.springframework.stereotype.Repository;
+
+ /**
+ * Automatically generate code by Minh Phúc
+ * @author Minh Phúc
+ * @date Thu Sep 07 08:14:26 GMT+07:00 2023
+ */
+@Repository
+public interface HrMoveDepartmentMapper extends BaseMapper<HrMoveDepartment> {
+}
